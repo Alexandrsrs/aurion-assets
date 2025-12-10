@@ -1,0 +1,48 @@
+{
+  "name": "AURION",
+  "symbol": "AURI",
+  "description": "AURION: Architected for Digital Certainty\n\nAURION (AURI) is a value-preservation protocol on Solana, engineered with a focus on \"Anti-fragility.\" We have deprecated the standard inflationary staking model in favor of mathematically guaranteed price backing.\n\nThe Foundation: Concrete Floor Thesis\nUnlike traditional AMMs where liquidity is spread thin, AURION utilizes Concentrated Liquidity (CLMM) via Orca Whirlpools to create a rigid foundation.\n100% Backed: Every circulating token is covered by USDC reserves.\nHard Buy Wall: The entire backing capital is deployed in a single, massive Bid order immediately below the current price. This creates a physical price floor that acts as a hard stop against downside volatility.\n\nOn-Chain Proof\nSolvency isn’t a promise—it’s an on-chain invariant. The smart contract mathematically ensures there is always enough USDC in the pool to honor the floor price.\n\nGrowth Mechanic: The Dynamic Ratchet\nThe protocol operates on an \"Appreciation over Yield\" doctrine.\n\nThere is no staking and no inflation.\n\nInstead, protocol revenue is captured and used to mechanically raise the \"Concrete Floor\".\n\nThe Dynamic Ratchet allows the floor to move only in one direction: up. As the protocol grows, your downside protection rises with it.\n\nZero Trust & Security\nWe removed the human element to eliminate rug-pull risks:\n\nZero Token Allocation: The development team holds 0 AURI. There is no \"dev bag\" to dump on the market.\n\nMint Renounced: The keys to create new tokens were burned at genesis. Supply is strictly fixed.\n\nManipulation Resistant: Integrated TWAP oracles protect the protocol against flash loan attacks and instantaneous price manipulation.\n\nAURION is not a price peg — it is a price guarantee enforced by code.",
+  "image": "https://github.com/Alexandrsrs/aurion-assets/blob/main/Aurion.png?raw=true",
+  "external_url": "https://github.com/Alexandrsrs/aurion-assets",
+  "attributes": [
+    {
+      "trait_type": "Total Supply",
+      "value": "1 000 000 000"
+    },
+    {
+      "trait_type": "Decimals",
+      "value": 6
+    },
+    {
+      "trait_type": "Floor Price (initial)",
+      "value": "100 USDC"
+    },
+    {
+      "trait_type": "Floor Mechanism",
+      "value": "Orca Whirlpools Bid/Ask Walls"
+    },
+    {
+      "trait_type": "Team Allocation",
+      "value": "0%"
+    },
+    {
+      "trait_type": "Spec Version",
+      "value": "AURION v8.1"
+    }
+  ],
+  "properties": {
+    "category": "token",
+    "creators": [
+      {
+        "address": "gswxmvJpKKKEvZYLKCUxpxW7FctDegaQLRpj2MpxR8y",
+        "share": 100
+      }
+    ],
+    "files": [
+      {
+        "uri": "https://github.com/Alexandrsrs/aurion-assets/blob/main/Aurion.png?raw=true",
+        "type": "image/png"
+      }
+    ]
+  }
+}
